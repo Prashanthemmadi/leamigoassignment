@@ -1,0 +1,66 @@
+.main-container {
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background-image: url('https://i.ibb.co/RhRxN6x/airoplane.webp');
+  background-size: cover;
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #1282b3;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1282b3;
+}
+
+.details-card {
+  background-color: #bb9595;
+  height: 100px;
+  box-shadow: 4px 16px 16px 4px #bfbfbf;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.input {
+  padding: 14px;
+  border-radius: 10px;
+  width: 500px;
+  border-width: 0;
+  background-color: #ffffff;
+  outline: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+.button {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: green;
+  border-width: 0;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.arrow {
+  margin-top: 15px;
+}
+
+.no-data {
+  color: red;
+  font-family: 'Roboto';
+}
+
+.button:hover {
+  transition: 0.2;
+  transform: scale(1.1);
+}

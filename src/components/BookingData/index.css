@@ -1,0 +1,54 @@
+.route-details-card {
+  background-color: #ffffff;
+  border-radius: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  width: 20%;
+}
+.route-details {
+  display: flex;
+}
+.details-head {
+  font-size: 15px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.return-arrow {
+  margin-top: 10px;
+}
+.trip-details {
+  font-size: 17px;
+  display: flex;
+  font-family: 'Roboto';
+}
+
+.from-details {
+  display: flex;
+}
+
+.from {
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: 'Roboto';
+}
+
+.location {
+  margin-top: 18px;
+}
+
+.book {
+  padding: 15px;
+  border-radius: 10px;
+  border-width: 0;
+  background-color: #1282b3;
+  color: #ffffff;
+}
